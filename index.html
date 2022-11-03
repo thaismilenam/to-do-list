@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>to-do list</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+</head>
+<header>
+    <div class="header">To-do List</div>
+</header>
+<body>
+    <main class="conteudo">
+        <div class="formulario">
+            <img src="header.gif" alt="imagemfofa" width="100%">
+            <form class="adicionar" id="novoItem">
+                <label for="tarefa">Tarefa:</label>
+                <input type="text" name="tarefa" id="tarefa">
+                <label for="status">Status:</label>
+                <input type="text" name="status" id="status">
+                <input type="submit" value="Adicionar" class="cadastrar" id="cadastrar">
+            </form>
+        </div>
+        <div class="listadetarefas">
+        <ul class="lista" id="lista">
+        </ul>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
